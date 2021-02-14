@@ -6,6 +6,7 @@ export default styled.div`
   justify-content: space-around;
   align-items: center;
   padding: 0 4em;
+  margin: 0;
   background-color: ${(props) => props.color};
   width: 100%;
   min-height: ${(props) => props.minHeight};
