@@ -8,7 +8,7 @@ export default styled.section`
   flex-direction: column;
   /* align-self and width ensure footer stretches horizontally on all screen sizes */
   align-self: center;
-  width: 99vw;
+  min-width: 100%;
   /* flex-shrink stick the footer to the bottom of the page */
   flex-shrink: 0;
 `;

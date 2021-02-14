@@ -1,22 +1,22 @@
-import Container from "../components/Container";
-import FlexHeader from "../components/Header";
-import LinkText from "../components/LinkText";
+import Container from "../components/Home/Container";
+import FlexHeader from "../components/Home/FlexHeader";
+import LinkText from "../components/Home/LinkText";
 import Link from "next/link";
 
-import Title from "../components/Title";
-import Subtitle from "../components/Subtitle";
-import Button from "../components/Button";
+import Title from "../components/Home/Title";
+import Subtitle from "../components/Home/Subtitle";
+import Button from "../components/Home/Button";
 
-import HeroSection from "../components/HeroSection";
-import Section from "../components/Section";
-import Footer from "../components/Footer";
-import FooterSection from "../components/FooterSection";
-import FooterText from "../components/FooterText";
-import FooterImage from "../components/FooterImage";
+import HeroSection from "../components/Home/HeroSection";
+import HeroText from "../components/Home/HeroText";
+import HeroImage from "../components/Home/HeroImage";
+import Section from "../components/Home/Section";
+import Footer from "../components/Home/Footer";
+import FooterSection from "../components/Home/FooterSection";
+import FooterText from "../components/Home/FooterText";
+import FooterImage from "../components/Home/FooterImage";
 
 import { ThemeProvider } from "styled-components";
-import HeroText from "../components/HeroText";
-import HeroImage from "../components/HeroImage";
 
 const theme = {
   green: "#24aa86",
