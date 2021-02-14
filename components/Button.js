@@ -8,7 +8,7 @@ export default styled.button`
   border: none;
   border-radius: 1.5em;
   font-size: ${(props) => props.theme.fs_p};
-  font-weight: 900;
+  font-weight: 400;
   padding: 0.5em 1.75em;
   margin-left: 2em;
   text-decoration: none;
@@ -22,7 +22,7 @@ export default styled.button`
       transform: scale(1);
     }
     100% {
-      transform: scale(1.05);
+      transform: scale(1.2);
     }
   }
 `;

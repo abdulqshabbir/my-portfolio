@@ -6,6 +6,7 @@ const HeroSection = ({ children, className }) => {
 
 const StyledHeroSection = styled(HeroSection)`
   display: grid;
+  flex: 1 0 auto;
   /* position relative used to align hero image with container */
   position: relative;
   grid-template-columns: 5fr 7fr;

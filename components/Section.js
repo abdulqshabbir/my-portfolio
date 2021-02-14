@@ -6,6 +6,7 @@ const Section = ({ children, className }) => {
 
 const StyledSection = styled(Section)`
   display: flex;
+  flex: 1 0 auto;
   flex-direction: column;
   min-height: 300px;
   width: 80%;

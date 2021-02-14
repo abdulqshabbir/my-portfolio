@@ -9,6 +9,10 @@ import Button from "../components/Button";
 
 import HeroSection from "../components/HeroSection";
 import Section from "../components/Section";
+import Footer from "../components/Footer";
+import FooterSection from "../components/FooterSection";
+import FooterText from "../components/FooterText";
+import FooterImage from "../components/FooterImage";
 
 import { ThemeProvider } from "styled-components";
 import HeroText from "../components/HeroText";
@@ -20,6 +24,7 @@ const theme = {
   purple: "#673ab7",
   pageWidth: "1200px",
   gray: "#69777f",
+  darkGray: "#444a51",
   fs_p: "1.125rem",
   fs_h1: "3.157rem",
   fs_h2: "2.369rem",
@@ -55,9 +60,19 @@ export default function Home() {
           <Title color={theme.purple}>My Projects</Title>
           <Subtitle>Check out my cool stuff!</Subtitle>
           <Button color={theme.purple}>
-            <Link href="/about">Learn more about me</Link>
+            <Link href="/about">See the projects</Link>
           </Button>
         </Section>
+        <Footer>
+          <FooterSection color={theme.gray} minHeight="75px">
+            <FooterImage src="github.svg"></FooterImage>
+            <FooterImage src="at.svg"></FooterImage>
+            <FooterImage src="linkedin.svg"></FooterImage>
+          </FooterSection>
+          <FooterSection color={theme.darkGray} minHeight="40px">
+            <FooterText>Abdul Shabbir 2021</FooterText>
+          </FooterSection>
+        </Footer>
       </Container>
     </ThemeProvider>
   );
