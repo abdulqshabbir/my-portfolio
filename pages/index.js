@@ -5,9 +5,10 @@ import Link from "next/link";
 
 import Title from "../components/Title";
 import Subtitle from "../components/Subtitle";
+import Button from "../components/Button";
 
 import HeroSection from "../components/HeroSection";
-import AboutSection from "../components/AboutSection";
+import Section from "../components/Section";
 
 import { ThemeProvider } from "styled-components";
 import HeroText from "../components/HeroText";
@@ -18,6 +19,7 @@ const theme = {
   orange: "#ee6352",
   purple: "#673ab7",
   pageWidth: "1200px",
+  gray: "#69777f",
   fs_p: "1.125rem",
   fs_h1: "3.157rem",
   fs_h2: "2.369rem",
@@ -39,16 +41,23 @@ export default function Home() {
           </Link>
         </FlexHeader>
         <HeroSection>
-          <HeroText>
-            Hi, I'm Abdul. I love making cool web applications.
-          </HeroText>
+          <HeroText>Hi, I'm Abdul. I make beautiful web applications.</HeroText>
           <HeroImage src="/photo.jpg"></HeroImage>
         </HeroSection>
-        <AboutSection>
+        <Section>
           <Title color={theme.green}>About Me</Title>
           <Subtitle>Spoiler alert! I'm a geek.</Subtitle>
-          {/* <Button>Learn more about me</Button> */}
-        </AboutSection>
+          <Button color={theme.green}>
+            <Link href="/about">Learn more about me</Link>
+          </Button>
+        </Section>
+        <Section>
+          <Title color={theme.purple}>My Projects</Title>
+          <Subtitle>Check out my cool stuff!</Subtitle>
+          <Button color={theme.purple}>
+            <Link href="/about">Learn more about me</Link>
+          </Button>
+        </Section>
       </Container>
     </ThemeProvider>
   );

@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
-const AboutSection = ({ children, className }) => {
+const Section = ({ children, className }) => {
   return <section className={className}>{children}</section>;
 };
 
-const StyledAboutSection = styled(AboutSection)`
+const StyledSection = styled(Section)`
   display: flex;
   flex-direction: column;
   min-height: 300px;
@@ -13,4 +13,4 @@ const StyledAboutSection = styled(AboutSection)`
   padding: 10px;
 `;
 
-export default StyledAboutSection;
+export default StyledSection;
