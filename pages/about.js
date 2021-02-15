@@ -100,32 +100,3 @@ export default function Home() {
     </ThemeProvider>
   );
 }
-
-/*
-
-    Title: Hello, I'm Abdul
-    Subtitle: I want to build cool web applications for you.
-    Photo: Image of me
-
-
-    Title: I taught myself to code in 2016
-    Subtitle:  It was the best decision I ever made
-    Photo: cat_programming.png
-
-    Title: I love to learn new things about the web
-    Subtitle: I know HTML/CSS/Javascript, Typescript, React, Redux, NodeJS, Express, MongoDB, GraphQL, Git, Python, Semantic UI & Bootstrap, Unit Testing with Jest, REST
-    photo: code.png
-
-
-    Title: I'm a proud pet parent of this furball
-    Subtitle:  He's not so happy with me right now...
-    photo: princey.jpg
-
-    Title: I love learning new languages (the other kind)
-    Subtitle: Right now I'm learning Mandarin!
-    photo: chinese.svg
-
-    Title: I'm a geek.
-    Subtitle: I can solve a Rubik's cube in under one minute.
-    photo:
-*/
