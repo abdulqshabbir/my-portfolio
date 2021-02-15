@@ -6,7 +6,6 @@ const Header = ({ children, className }) => {
 
 const StyledHeader = styled(Header)`
   display: flex;
-  flex: 1 0 auto;
   align-items: center;
   justify-content: space-around;
   height: 120px;

@@ -13,8 +13,7 @@ const StyledContainer = styled(Container)`
   font-size: 1rem;
   line-height: calc(1rem * 1.7);
   min-height: 100vh;
-  max-width: ${(props) =>
-    props.theme.pageWidth ? props.theme.pageWidth : "1200px"};
+  width: 1200px;
   display: flex;
   flex-direction: column;
   position: relative;

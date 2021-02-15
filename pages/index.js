@@ -4,14 +4,14 @@ import FlexHeader from "../components/FlexHeader";
 import LinkText from "../components/LinkText";
 import Link from "next/link";
 
-import Title from "../components/Home/Title";
-import Subtitle from "../components/Home/Subtitle";
-import Button from "../components/Home/Button";
+import Title from "../components/Title";
+import Subtitle from "../components/Subtitle";
+import Button from "../components/Button";
 
-import HeroSection from "../components/Home/HeroSection";
-import HeroText from "../components/Home/HeroText";
-import HeroImage from "../components/Home/HeroImage";
-import Section from "../components/Home/Section";
+import HeroSection from "../components/HeroSection";
+import HeroText from "../components/HeroText";
+import HeroImage from "../components/HeroImage";
+import Section from "../components/Section";
 
 import Footer from "../components/Footer";
 import FooterSection from "../components/FooterSection";
