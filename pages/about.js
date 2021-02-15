@@ -11,6 +11,7 @@ import FooterImage from "../components/FooterImage";
 
 import Section from "../components/About/Section";
 import SectionImage from "../components/About/SectionImage";
+import { SectionImageNoBoxShadow } from "../components/About/SectionImage";
 import SectionText from "../components/About/SectionText";
 import Title from "../components/About/Title";
 import Subtitle from "../components/About/Subtitle";
@@ -35,7 +36,7 @@ export default function Home() {
             </Link>
           </FlexHeader>
           <Section>
-            <SectionImage src="photo.jpg" rotate="0" />
+            <SectionImage src="photo.jpg" rotate="8deg" />
             <SectionText>
               <Title>Hello, I'm Abdul</Title>
               <Subtitle>
@@ -44,32 +45,39 @@ export default function Home() {
             </SectionText>
           </Section>
           <Section>
-            <SectionImage src="cat_programming.jpg" rotate="0" />
+            <SectionImage src="cat_programming.jpg" rotate="-20deg" />
             <SectionText>
               <Title>I taught myself to code</Title>
               <Subtitle>It was the best decision I've ever made.</Subtitle>
             </SectionText>
           </Section>
           <Section>
-            <SectionImage src="code.png" rotate="0" />
+            <SectionImage src="code.png" rotate="5deg" />
             <SectionText>
               <Title>I love to learn new things about the web</Title>
               <Subtitle>
                 I know HTML/CSS/Javascript, Typescript, React, Redux, NodeJS,
                 Express, MongoDB, GraphQL, Git, Python, Semantic UI & Bootstrap,
-                Unit Testing with Jest, REST
+                Unit Testing with Jest, REST.
               </Subtitle>
             </SectionText>
           </Section>
           <Section>
-            <SectionImage src="chinese.svg" rotate="0" />
+            <SectionImage src="princey.jpg" rotate="-8deg" />
             <SectionText>
-              <Title>I enjoy learning languages.</Title>
+              <Title>I'm a proud pet parent</Title>
+              <Subtitle>He's not so happy with me right now.</Subtitle>
+            </SectionText>
+          </Section>
+          <Section>
+            <SectionImage src="chinese.svg" rotate="10deg" />
+            <SectionText>
+              <Title>I enjoy learning languages</Title>
               <Subtitle>Right now I'm learning Mandarin!</Subtitle>
             </SectionText>
           </Section>
           <Section>
-            <SectionImage src="rubik.png" rotate="0" />
+            <SectionImageNoBoxShadow src="rubik.png" rotate="0" />
             <SectionText>
               <Title>I'm a geek</Title>
               <Subtitle>

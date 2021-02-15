@@ -7,7 +7,7 @@ const Section = ({ children, className }) => {
 const StyledSection = styled(Section)`
   display: grid;
   grid-template-columns: 1fr 2fr;
-  min-height: 600px;
+  min-height: 100vh;
   padding: 30px;
 `;
 
