@@ -3,6 +3,8 @@ import MainContainer from "../components/MainContainer";
 import FlexHeader from "../components/FlexHeader";
 import LinkText from "../components/LinkText";
 import Link from "next/link";
+import Hamburger from "../components/Mobile/Hamburger";
+import HamburgerLines from "../components/Mobile/HamburgerLines";
 
 import Title from "../components/Title";
 import Subtitle from "../components/Subtitle";
@@ -48,6 +50,9 @@ export default function Home() {
               <LinkText color={theme.purple}>projects</LinkText>
             </Link>
           </FlexHeader>
+          <Hamburger>
+            <HamburgerLines></HamburgerLines>
+          </Hamburger>
           <HeroSection>
             <HeroText>
               Hi, I'm Abdul. I make beautiful web applications.

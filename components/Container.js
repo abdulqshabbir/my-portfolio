@@ -17,6 +17,10 @@ const StyledContainer = styled(Container)`
   display: flex;
   flex-direction: column;
   position: relative;
+
+  @media (max-width: 1200px) {
+    width: 100%;
+  }
 `;
 
 export default StyledContainer;

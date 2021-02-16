@@ -10,6 +10,10 @@ const StyledHeader = styled(Header)`
   justify-content: space-around;
   height: 120px;
   padding: 0 200px;
+
+  @media (max-width: 1200px) {
+    display: none;
+  }
 `;
 
 export default StyledHeader;
