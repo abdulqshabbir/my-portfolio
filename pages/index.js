@@ -65,18 +65,19 @@ export default function Home() {
             <Title color={theme.purple}>My Projects</Title>
             <Subtitle>Check out my cool stuff!</Subtitle>
             <Button color={theme.purple}>
-              <Link href="/about">See the projects</Link>
+              <Link href="/projects">See the projects</Link>
             </Button>
           </Section>
         </Container>
         <Footer>
-          <FooterSection color={theme.gray} minHeight="75px">
-            <FooterImage src="github.svg"></FooterImage>
-            <FooterImage src="at.svg"></FooterImage>
-            <FooterImage src="linkedin.svg"></FooterImage>
-          </FooterSection>
-          <FooterSection color={theme.darkGray} minHeight="40px">
+          <FooterSection color={theme.darkGray} minHeight="100px">
+            <Link href="https://github.com/abdulqshabbir">
+              <FooterImage src="github.svg"></FooterImage>
+            </Link>
             <FooterText>Abdul Shabbir 2021</FooterText>
+            <Link href="https://www.linkedin.com/in/abdul-shabbir-702881145/">
+              <FooterImage src="linkedin.svg"></FooterImage>
+            </Link>
           </FooterSection>
         </Footer>
       </MainContainer>

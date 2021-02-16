@@ -7,7 +7,7 @@ export default styled.img`
   width: 100%;
   padding: 10px;
   transform: rotate(${(props) => props.rotate});
-  background: white;
+  border: 1px solid ${(props) => props.theme.darkGray};
   box-shadow: 18px 14px 21px -8px rgba(0, 0, 0, 0.69);
   cursor: ${(props) => (props.cursor ? props.cursor : "default")};
   &:hover {
