@@ -61,7 +61,7 @@ export default function Home() {
             </Link>
             <SectionText>
               <Title>Sorting Visualizer</Title>
-              <Subtitle style={{ marginBottom: "1em" }} color={theme.purple}>
+              <Subtitle style={{ marginBottom: "1em" }} color={theme.gray}>
                 React | Javascript | CSS | Semantic UI
               </Subtitle>
               <Subtitle color={theme.purple}>
