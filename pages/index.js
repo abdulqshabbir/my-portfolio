@@ -59,7 +59,6 @@ export default function Home() {
                 <LinkText color={theme.purple}>projects</LinkText>
               </Link>
             </FlexHeader>
-
             {/* mobile only */}
             <HamburgerHeader>
               <Hamburger>
@@ -77,7 +76,6 @@ export default function Home() {
                 <LinkText color={theme.purple}>projects</LinkText>
               </Link>
             </LinkWrapper>
-
             <HeroSection>
               <HeroText>
                 Hi, I'm Abdul. I make beautiful web applications.

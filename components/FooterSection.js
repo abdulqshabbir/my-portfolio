@@ -10,4 +10,8 @@ export default styled.div`
   background-color: ${(props) => props.color};
   width: 100%;
   min-height: ${(props) => props.minHeight};
+
+  @media (max-width: 1200px) {
+    padding: 0;
+  }
 `;
