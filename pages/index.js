@@ -36,6 +36,9 @@ export const theme = {
   fs_p: "1.125rem",
   fs_h1: "3.157rem",
   fs_h2: "2.369rem",
+  fs_p_mobile: "0.8rem",
+  fs_h1_mobile: "2rem",
+  fs_h2_mobile: "1.2rem",
 };
 
 export default function Home() {

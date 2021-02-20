@@ -12,6 +12,14 @@ const StyledSection = styled(Section)`
   width: 80%;
   margin: 3em auto 0 auto;
   padding: 10px;
+
+  @media (max-width: 1200px) {
+    justify-content: center;
+    width: 100%;
+    min-height: 250px;
+    padding: 0 20px;
+    margin: 0;
+  }
 `;
 
 export default StyledSection;

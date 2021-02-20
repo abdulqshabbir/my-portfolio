@@ -13,6 +13,7 @@ const StyledHeader = styled(Header)`
 
   @media (max-width: 1200px) {
     display: none;
+    padding: 0;
   }
 `;
 

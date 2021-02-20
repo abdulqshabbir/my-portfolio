@@ -9,5 +9,6 @@
   height: 120px;
   cursor: pointer;
   z-index: 2;
-  padding-right: 40px;
+  padding: 0;
+  margin: 0;
 }

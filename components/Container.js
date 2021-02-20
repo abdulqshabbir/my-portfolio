@@ -11,7 +11,7 @@ const StyledContainer = styled(Container)`
   color: black;
   font-family: sans-serif;
   font-size: 1rem;
-  line-height: calc(1rem * 1.7);
+  line-height: 1.2;
   min-height: 100vh;
   width: 1200px;
   display: flex;
@@ -20,6 +20,7 @@ const StyledContainer = styled(Container)`
 
   @media (max-width: 1200px) {
     width: 100%;
+    line-height: 1.5;
   }
 `;
 

@@ -6,4 +6,8 @@ export default styled.h1`
   font-size: ${(props) => props.theme.fs_h1};
   color: ${(props) => (props.color ? props.color : props.theme.gray)};
   line-height: 1.3;
+
+  @media (max-width: 1200px) {
+    font-size: ${(props) => props.theme.fs_h1_mobile};
+  }
 `;

@@ -1,11 +1,14 @@
 import styled from "styled-components";
 
 export default styled.img`
-  grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column: 1/2;
+  grid-row: 1/1;
   position: absolute;
-  top: 30px;
-  left: 30px;
-  width: 60%;
+  height: 100%;
   border-radius: 2em;
+  @media (max-width: 1200px) {
+    grid-column: 1/1;
+    grid-row: 2/3;
+    justify-self: center;
+  }
 `;

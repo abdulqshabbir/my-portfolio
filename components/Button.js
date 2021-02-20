@@ -25,4 +25,7 @@ export default styled.button`
       transform: scale(1.2);
     }
   }
+  @media (max-width: 1200px) {
+    font-size: ${(props) => props.theme.fs_p_mobile};
+  }
 `;
