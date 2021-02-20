@@ -15,6 +15,8 @@ import FooterSection from "../components/FooterSection";
 import FooterText from "../components/FooterText";
 import FooterImage from "../components/FooterImage";
 import SectionImage from "../components/Projects/SectionImage";
+import ButtonWrapper from "../components/Projects/ButtonWrapper";
+import Button from "../components/Button";
 
 import { ThemeProvider } from "styled-components";
 import { theme } from "./index";
@@ -78,6 +80,18 @@ export default function Home() {
                   algorithms. The program visualizes the shortest path between a
                   selected start node and end node.
                 </Subtitle>
+                <ButtonWrapper>
+                  <Button color={"black"}>
+                    <Link href="https://abdulqshabbir.github.io/path-finding-visualizer/">
+                      Live Demo
+                    </Link>
+                  </Button>
+                  <Button color={"black"}>
+                    <Link href="https://github.com/abdulqshabbir/path-finding-visualizer">
+                      Code
+                    </Link>
+                  </Button>
+                </ButtonWrapper>
               </SectionText>
             </Section>
             <Section>
@@ -97,6 +111,18 @@ export default function Home() {
                   numbers that the user sees as green bars. Watch the green bars
                   as the computer sorts them from smallest to largest!
                 </Subtitle>
+                <ButtonWrapper>
+                  <Button color={"black"}>
+                    <Link href="https://abdulqshabbir.github.io/algorithm-visualizer/">
+                      Live Demo
+                    </Link>
+                  </Button>
+                  <Button color={"black"}>
+                    <Link href="https://github.com/abdulqshabbir/algorithm-visualizer">
+                      Code
+                    </Link>
+                  </Button>
+                </ButtonWrapper>
               </SectionText>
             </Section>
           </Container>
