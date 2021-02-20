@@ -4,16 +4,16 @@ export default styled.div`
   /* position lines relative to hamburger container */
   position: absolute;
   /* only show for small screens */
-  display: block;
+  display: none;
   background-color: ${(props) => props.theme.gray};
-  height: 5px;
+  height: 3px;
   width: 50px;
   &::before,
   &::after {
     content: "";
     position: absolute;
     background-color: ${(props) => props.theme.gray};
-    height: 5px;
+    height: 3px;
     width: 50px;
   }
 
@@ -22,5 +22,9 @@ export default styled.div`
   }
   &::after {
     transform: translateY(20px);
+  }
+
+  @media (max-width: 1200px) {
+    display: block;
   }
 `;

@@ -1,24 +1,21 @@
-import styled from "styled-components";
+import { useContext, useState } from "react";
+import { Context } from "../Store";
+import styles from "./Hamburger.module.css";
 
-export default styled.div`
-  /* position hamburgerLines relative to Hamburger */
-  position: relative;
-  /* only show for small screens */
-  display: none;
-  width: 120px;
-  height: 120px;
-  background-color: white;
-  cursor: pointer;
-  z-index: 2;
-  height: 120px;
+const Hamburger = ({ children }) => {
+  const [state, dispatch] = useContext(Context);
+  const [isActive, setIsActive] = useState(true);
 
-  @media (max-width: 1200px) {
-    display: flex;
-    /* align-self aligns hamburger wrapper to the right */
-    align-self: flex-end;
-
-    /* align-items and justify-items aligns hamburger lines */
-    align-items: center;
-    justify-content: center;
+  function toggleOpen() {
+    setIsActive((prevState) => !prevState);
+    dispatch({ type: "TOGGLE_HAMBURGER_ACTIVE", payload: isActive });
   }
-`;
+
+  return (
+    <div onClick={toggleOpen} className={`${styles.hamburger}`}>
+      {children}
+    </div>
+  );
+};
+
+export default Hamburger;

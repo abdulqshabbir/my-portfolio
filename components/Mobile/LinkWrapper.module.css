@@ -1,0 +1,19 @@
+.active {
+  /* important is needed to ensure it gets priority over "styled-component" styles*/
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: black;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  height: 300px;
+  transform: translateY(-300px);
+  animation: slide-in 0.5s ease-in-out forwards;
+}
+
+@keyframes slide-in {
+  100% {
+    transform: translateY(0px);
+  }
+}
