@@ -6,4 +6,8 @@ export default styled.h1`
   text-align: center;
   color: black;
   padding: 20px;
+  @media (max-width: 1200px) {
+    width: 100%;
+    font-size: ${(props) => props.theme.fs_h1_mobile};
+  }
 `;

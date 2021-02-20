@@ -71,7 +71,7 @@ export default function Home() {
               </SectionText>
             </Section>
             <Section>
-              <SectionImage src="cat_programming.jpg" rotate="-20deg" />
+              <SectionImage src="cat_programming.jpg" rotate="-10deg" />
               <SectionText>
                 <Title>I taught myself to code</Title>
                 <Subtitle color={theme.green}>

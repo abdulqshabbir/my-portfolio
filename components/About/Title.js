@@ -6,4 +6,10 @@ export default styled.h1`
   margin-bottom: 0.5em;
   line-height: 1;
   margin: 20px;
+  @media (max-width: 1200px) {
+    padding: 0;
+    margin: 10px 0;
+    width: 100%;
+    font-size: ${(props) => props.theme.fs_h1_mobile};
+  }
 `;

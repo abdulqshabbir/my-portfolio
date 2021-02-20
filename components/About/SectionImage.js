@@ -10,6 +10,10 @@ export default styled.img`
   background: white;
   box-shadow: 18px 14px 21px -8px rgba(0, 0, 0, 0.69);
   cursor: ${(props) => (props.cursor ? props.cursor : "default")};
+
+  @media (max-width: 1200px) {
+    width: 60%;
+  }
 `;
 
 export const SectionImageNoBoxShadow = styled.img`
@@ -20,4 +24,7 @@ export const SectionImageNoBoxShadow = styled.img`
   padding: 10px;
   transform: rotate(${(props) => props.rotate});
   background: white;
+  @media (max-width: 1200px) {
+    width: 60%;
+  }
 `;
