@@ -91,15 +91,6 @@ export default function Home() {
               </SectionText>
             </Section>
             <Section>
-              <SectionImage src="princey.jpg" rotate="-8deg" />
-              <SectionText>
-                <Title>I'm a proud pet parent</Title>
-                <Subtitle color={theme.green}>
-                  This is Prince looking off into the distance.
-                </Subtitle>
-              </SectionText>
-            </Section>
-            <Section>
               <SectionImage src="chinese.svg" rotate="10deg" />
               <SectionText>
                 <Title>I enjoy learning languages</Title>
